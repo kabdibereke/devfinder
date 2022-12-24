@@ -1,7 +1,5 @@
 import styles from './UserSociety.module.scss'
-import {ReactComponent as Location} from '../../assets/icon-location.svg'
-import {ReactComponent as Twitter} from '../../assets/icon-twitter.svg'
-import {ReactComponent as Website} from '../../assets/icon-website.svg'
+
 
 import { GithubUser } from '../../types/types'
 
