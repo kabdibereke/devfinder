@@ -1,0 +1,49 @@
+:global {
+    body[data-theme='light'] {
+        --soc-color: var( --gray-500);
+     
+    }
+  
+    body[data-theme='dark'] {
+    
+    --soc-color: var(--white);
+    }
+}
+
+.societyWrapper {
+    display: flex; 
+    width: 65%;
+    align-self: flex-end;
+    margin: 35px 35px 50px 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.society {
+    display: flex; 
+    gap: 20px;
+  
+}
+
+.icon {
+    fill: var(--soc-color)
+}
+
+.text {
+    font-size: 14px;
+    color:var(--soc-color);
+    letter-spacing: 2px;
+}
+
+@media (max-width: 757px) {
+    .societyWrapper {
+        display: flex; 
+        width: 95%;
+        align-self: center;
+        margin-right: 0px;
+
+    }
+}

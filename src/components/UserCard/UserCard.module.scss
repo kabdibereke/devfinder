@@ -1,0 +1,25 @@
+:global {
+    body[data-theme='light'] {
+      --card-bg: var(--white);
+      --card-shadow: var(--shadow);
+    }
+  
+    body[data-theme='dark'] {
+      --card-bg: var(--gray-400);
+      --card-shadow: unset;
+    }
+  }
+
+.userCardWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+}
+
+.spinner {
+  align-self:center;
+  margin: 50px 0;
+}
